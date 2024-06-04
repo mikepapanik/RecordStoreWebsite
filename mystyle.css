@@ -1,0 +1,98 @@
+table, td {
+		 border: 2px solid black;
+
+		}
+		table {
+			width:40%;
+			}
+body {
+  color: #FFFFFF;
+  background-color: #778899;
+}
+
+@media only screen and (max-width: 769px) {
+  body {
+    background-color: black;
+	color: white;
+  }
+}
+h4{
+	font-size: 17px;
+}
+h2 {
+  color: white;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+h1 {
+	font-family: "Algerian"
+	}
+	
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.img-with-text {
+    text-align: justify;
+    width: [width of img];
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
